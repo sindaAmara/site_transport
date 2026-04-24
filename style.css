@@ -584,6 +584,7 @@ section {
 /* ─── SERVICE PRICE ─── */
 .sc-price { font-size: 0.85rem; color: var(--gold); font-weight: 600; margin-bottom: 10px; }
 .sc-price strong { font-size: 1rem; }
+.sc-included { font-size: 0.78rem; color: var(--text-light); font-weight: 400; }
 
 /* ─── ICON IMAGES ─── */
 .ac-icon img, .ac-icon-img { width: 36px; height: 36px; object-fit: contain; }
