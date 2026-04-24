@@ -1,0 +1,686 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>Philly Tasker LLC — Moving, Junk Removal, Assembly & Cleanouts | Philadelphia</title>
+
+  <!-- SEO -->
+  <meta name="description" content="Philly Tasker LLC provides reliable moving services, junk removal, furniture assembly, cleanouts, TV mounting and errands in Philadelphia and surrounding areas. Fast, affordable and available 24/7." />
+  <meta name="keywords" content="Philadelphia moving service, junk removal, furniture assembly, movers Philadelphia, TV mounting, cleanouts, errand service, Philly Tasker" />
+  <meta name="author" content="Philly Tasker LLC" />
+
+  <!-- Mobile / SEO -->
+  <meta name="robots" content="index, follow" />
+
+  <!-- Open Graph (Facebook / WhatsApp / LinkedIn) -->
+  <meta property="og:title" content="Philly Tasker LLC — Moving & Cleanout Services" />
+  <meta property="og:description" content="Fast and reliable moving, junk removal, furniture assembly and cleanout services in Philadelphia. Book your service online." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://phillytasker.com" />
+  <meta property="og:image" content="/img/preview.png" />
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Philly Tasker LLC — Moving Services" />
+  <meta name="twitter:description" content="Book reliable moving and cleanout services in Philadelphia." />
+  <meta name="twitter:image" content="/img/preview.png" />
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" sizes="32x32" href="/img/favicon.png" />
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet" />
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="style.css" />
+
+  <!-- Preload (performance boost) -->
+  <link rel="preload" href="style.css" as="style" />
+</head>
+<body>
+
+  <!-- NAV -->
+  <nav id="navbar">
+    <div class="nav-inner">
+      <a href="#hero" class="logo">
+        <img src="/img/logo.png" alt="Philly Tasker" class="logo-img" />
+        Philly Tasker
+      </a>
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#area">Service Area</a></li>
+        <li><a href="#gallery">Gallery</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li><a href="#booking" class="btn-nav">Book Now</a></li>
+      </ul>
+      <button class="hamburger" id="hamburger" aria-label="Menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+    <div class="mobile-menu" id="mobileMenu">
+      <a href="#about">About</a>
+      <a href="#services">Services</a>
+      <a href="#area">Service Area</a>
+      <a href="#gallery">Gallery</a>
+      <a href="#contact">Contact</a>
+      <a href="#booking" class="btn-nav">Book Now</a>
+    </div>
+  </nav>
+
+  <!-- HERO -->
+  <section id="hero">
+    <div class="hero-bg-lines"></div>
+    <div class="hero-content">
+      <span class="hero-badge">Philadelphia's #1 Moving and Tasking Experts</span>
+      <h1>We Move.<br /><em>You Relax.</em></h1>
+      <p class="hero-sub">Moving, cleanouts, junk removal, furniture assembly, TV mounting and more — Philly Tasker LLC handles it all. Available 24/7 across Philadelphia and the East Coast.</p>
+      <div class="hero-cta">
+        <a href="tel:+14454441515" class="btn-primary">
+          <img src="/img/phone.png" alt="Phone" class="btn-icon" />
+          Call Now — 24/7
+        </a>
+        <a href="#services" class="btn-ghost">See What We Do</a>
+      </div>
+      <div class="hero-stats">
+        <div class="stat">
+          <strong>1,042+</strong>
+          <span>Tasks Completed</span>
+        </div>
+        <div class="stat-sep"></div>
+        <div class="stat">
+          <strong>5.0★</strong>
+          <span>Average Rating</span>
+        </div>
+        <div class="stat-sep"></div>
+        <div class="stat">
+          <strong>24/7</strong>
+          <span>Always Available</span>
+        </div>
+      </div>
+    </div>
+    <div class="hero-visual">
+      <div class="truck-card">
+        <div class="truck-info">
+          <p class="truck-label">Next Available Slot</p>
+          <p class="truck-date" id="nextSlot">Loading…</p>
+        </div>
+      </div>
+    </div>
+    <div class="hero-scroll">
+      <span>Scroll</span>
+      <div class="scroll-line"></div>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section id="about">
+    <div class="container">
+      <div class="about-grid">
+        <div class="about-text reveal">
+          <span class="section-label">Who We Are</span>
+          <h2>Philly's Trusted<br />Hands-On Team</h2>
+          <p>Philly Tasker LLC is built on 10+ years of professional experience. We come fully equipped with a 15-ft box truck, a seatless minivan, dollies, straps, blankets, shrink wrap, drills, and everything needed to get the job done right — the first time.</p>
+          <p>From apartments and offices to restaurants, medical equipment, and fitness gear — we move it all with care and precision. Available same-day or scheduled, 24/7, no excuses.</p>
+          <a href="tel:+14454441515" class="btn-primary">
+            <img src="/img/phone.png" alt="Phone" class="btn-icon" />
+            Call for a Free Quote
+          </a>
+        </div>
+        <div class="about-cards reveal">
+          <div class="about-card">
+            <div class="ac-icon">
+              <img src="/img/time.png" alt="Available 24/7" class="ac-icon-img" />
+            </div>
+            <h4>Available 24/7</h4>
+            <p>Day, night, weekend or holiday — we're always ready. Same-day slots available.</p>
+          </div>
+          <div class="about-card">
+            <div class="ac-icon">
+              <img src="/img/securite.png" alt="Safe & Secure" class="ac-icon-img" />
+            </div>
+            <h4>Safe and Secure</h4>
+            <p>ID verified, fully equipped, careful with every item from antiques to Pelotons.</p>
+          </div>
+          <div class="about-card">
+            <div class="ac-icon">
+              <img src="/img/money.png" alt="Fair Pricing" class="ac-icon-img" />
+            </div>
+            <h4>Transparent Pricing</h4>
+            <p>No hidden fees. You know the price before we lift a single box.</p>
+          </div>
+          <div class="about-card">
+            <div class="ac-icon">
+              <img src="/img/map.png" alt="Service Area" class="ac-icon-img" />
+            </div>
+            <h4>Wide Coverage</h4>
+            <p>All Philly neighborhoods + suburbs + interstate to NYC, DC, VA, DE and MD.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SERVICES -->
+  <section id="services">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-label">What We Offer</span>
+        <h2>Our Services</h2>
+        <p>From full home moves to single items, junk removal, assembly, and TV mounting — one call covers it all.</p>
+      </div>
+      <div class="services-grid">
+
+        <div class="service-card reveal">
+          <div class="sc-num">01</div>
+          <h3>Truck-Assisted Moving</h3>
+          <p class="sc-price">From <strong>$98.07/hr</strong></p>
+          <p>10+ years experience with a 15-ft box truck. Apartments, studios, offices, student housing, storage, and long-distance deliveries.</p>
+          <ul>
+            <li>15-ft box truck included</li>
+            <li>Dolly, straps, blankets, wrap</li>
+            <li>Fragile item specialists</li>
+            <li>Punctual and professional</li>
+          </ul>
+          <a href="#booking" class="service-link">Book →</a>
+        </div>
+
+        <div class="service-card reveal">
+          <div class="sc-num">02</div>
+          <h3>Full Service Moving</h3>
+          <p class="sc-price">From <strong>$268.42/hr</strong></p>
+          <p>2 or 3 experienced Taskers + a 15-ft box truck. Fast, smooth, and completely stress-free from start to finish.</p>
+          <ul>
+            <li>Multi-person crew</li>
+            <li>Fast and careful handling</li>
+            <li>Same-day or scheduled</li>
+            <li>No job too big or small</li>
+          </ul>
+          <a href="#booking" class="service-link">Book →</a>
+        </div>
+
+        <div class="service-card reveal">
+          <div class="sc-num">03</div>
+          <h3>Help Moving</h3>
+          <p class="sc-price">From <strong>$70.20/hr</strong></p>
+          <p>Solo Tasker for smaller jobs. Loading/unloading U-Hauls, room-to-room moves, apartment help — available last minute.</p>
+          <ul>
+            <li>2-hour minimum</li>
+            <li>Loading and unloading</li>
+            <li>Room-to-room moves</li>
+            <li>Available last minute</li>
+          </ul>
+          <a href="#booking" class="service-link">Book →</a>
+        </div>
+
+        <div class="service-card reveal">
+          <div class="sc-num">04</div>
+          <h3>Furniture Assembly</h3>
+          <p class="sc-price">From <strong>$67.10/hr</strong></p>
+          <p>5+ years assembling IKEA, Wayfair, Amazon, and more. Beds, desks, wardrobes, closet systems — done right the first time.</p>
+          <ul>
+            <li>2-hour minimum</li>
+            <li>All brands and styles</li>
+            <li>Right tools always on hand</li>
+            <li>Clean and respectful service</li>
+          </ul>
+          <a href="#booking" class="service-link">Book →</a>
+        </div>
+
+        <div class="service-card reveal">
+          <div class="sc-num">05</div>
+          <h3>Heavy Lifting and Loading</h3>
+          <p class="sc-price">From <strong>$78.46/hr</strong></p>
+          <p>Couches, beds, dressers, washers, fridges, stoves — we lift safely with proper equipment and protect your floors and walls.</p>
+          <ul>
+            <li>Dolly, straps, hand truck</li>
+            <li>Moving blankets included</li>
+            <li>Floor and wall protection</li>
+            <li>Available last minute</li>
+          </ul>
+          <a href="#booking" class="service-link">Book →</a>
+        </div>
+
+        <div class="service-card reveal">
+          <div class="sc-num">06</div>
+          <h3>TV Mounting</h3>
+          <p class="sc-price">From <strong>$87.75/hr</strong></p>
+          <p>Professional TV mounting — small to large screens, all wall types. Secure, level, and neatly set up every time.</p>
+          <ul>
+            <li>2-hour minimum</li>
+            <li>All screen sizes</li>
+            <li>All wall types handled</li>
+            <li>Clean cable management</li>
+          </ul>
+          <a href="#booking" class="service-link">Book →</a>
+        </div>
+
+        <div class="service-card reveal">
+          <div class="sc-num">07</div>
+          <h3>Trash and Junk Removal</h3>
+          <p class="sc-price">From <strong>$64/hr</strong></p>
+          <p>Full-service junk removal — fast, affordable, no hassle. 15-ft truck, strong team, same-day and next-day available. Dump fee may apply.</p>
+          <ul>
+            <li>2-hour minimum</li>
+            <li>15-ft box truck</li>
+            <li>Same-day available</li>
+            <li>Transparent pricing</li>
+          </ul>
+          <a href="#booking" class="service-link">Book →</a>
+        </div>
+
+        <div class="service-card reveal">
+          <div class="sc-num">08</div>
+          <h3>Clean Out Service</h3>
+          <p class="sc-price">Call for quote</p>
+          <p>Moving out or clearing a property? We remove everything — furniture, boxes, appliances — and leave it broom-clean and ready.</p>
+          <ul>
+            <li>Residential and commercial</li>
+            <li>Estate and eviction cleanouts</li>
+            <li>Same-day availability</li>
+            <li>Full crew available</li>
+          </ul>
+          <a href="#booking" class="service-link">Book →</a>
+        </div>
+
+        <div class="service-card reveal">
+          <div class="sc-num">09</div>
+          <h3>Errands</h3>
+          <p class="sc-price">From <strong>$87.75/hr</strong></p>
+          <p>Groceries, package pickups, deliveries, returns — reliable, organized, and always communicating throughout the task.</p>
+          <ul>
+            <li>2-hour minimum</li>
+            <li>Punctual and professional</li>
+            <li>Real-time updates</li>
+            <li>Safe and reliable transport</li>
+          </ul>
+          <a href="#booking" class="service-link">Book →</a>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- GALLERY -->
+  <section id="gallery">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-label">Our Work</span>
+        <h2>See Us in Action</h2>
+        <p>Real jobs, real results — from apartments to offices, cleanouts to assemblies.</p>
+      </div>
+      <div class="gallery-grid">
+        <div class="gallery-item reveal tall">
+          <img src="/img/home.png" alt="Full Home Move" loading="lazy" />
+          <div class="gallery-overlay"><span>Full Home Move</span></div>
+        </div>
+        <div class="gallery-item reveal">
+          <img src="/img/ass.png" alt="Furniture Assembly" loading="lazy" />
+          <div class="gallery-overlay"><span>Furniture Assembly</span></div>
+        </div>
+        <div class="gallery-item reveal">
+          <img src="/img/boxmove.png" alt="Junk Removal" loading="lazy" />
+          <div class="gallery-overlay"><span>Furniture Assembly</span></div>
+        </div>
+        <div class="gallery-item reveal wide">
+          <img src="/img/tv.png" alt="Box Truck Move" loading="lazy" />
+          <div class="gallery-overlay"><span>TV Mounting</span></div>
+        </div>
+        <div class="gallery-item reveal">
+          <img src="/img/move.png" alt="TV Mounting" loading="lazy" />
+          <div class="gallery-overlay"><span>Junk Removal</span></div>
+        </div>
+        <div class="gallery-item reveal">
+          <img src="/img/box2.png" alt="Clean Out" loading="lazy" />
+          <div class="gallery-overlay"><span>Full Home Move</span></div>
+        </div>
+      </div>
+      <p class="gallery-note reveal">All photos are from real jobs completed by our team.</p>
+    </div>
+  </section>
+
+  <!-- SERVICE AREA -->
+  <section id="area">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-label">Where We Go</span>
+        <h2>Service Area</h2>
+        <p>Based in Philadelphia — covering the city, the suburbs, and the full East Coast.</p>
+      </div>
+
+      <!-- Interstate -->
+      <div class="area-top reveal">
+        <div class="area-interstate">
+          <h3>Interstate Routes</h3>
+          <p>We run regular long-distance routes to:</p>
+          <div class="interstate-badges">
+            <span class="ibadge">
+              New York City, NY
+            </span>
+            <span class="ibadge">
+              Washington, DC
+            </span>
+            <span class="ibadge">
+              Virginia
+            </span>
+            <span class="ibadge">
+              Delaware
+            </span>
+            <span class="ibadge">
+              Maryland
+            </span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Local area -->
+      <div class="area-local reveal">
+        <h3>
+          <img src="/img/local.png" alt="Philadelphia" class="area-local-icon" />
+          Philadelphia and Suburbs
+        </h3>
+        <p>We cover all neighborhoods and surrounding areas:</p>
+        <div class="area-tags">
+          <span class="atag philly">Center City</span>
+          <span class="atag philly">Fairmount</span>
+          <span class="atag philly">Northern Liberties</span>
+          <span class="atag philly">Port Richmond</span>
+          <span class="atag philly">Mount Airy</span>
+          <span class="atag philly">Roxborough</span>
+          <span class="atag philly">Fishtown</span>
+          <span class="atag philly">South Philly</span>
+          <span class="atag philly">North Philly</span>
+          <span class="atag suburb">Ardmore</span>
+          <span class="atag suburb">Broomall</span>
+          <span class="atag suburb">Media</span>
+          <span class="atag suburb">Villanova</span>
+          <span class="atag suburb">King of Prussia</span>
+          <span class="atag suburb">Norristown</span>
+          <span class="atag suburb">Paoli</span>
+          <span class="atag suburb">West Chester</span>
+          <span class="atag suburb">Phoenixville</span>
+          <span class="atag suburb">Collegeville</span>
+          <span class="atag suburb">Blue Bell</span>
+          <span class="atag suburb">Lansdale</span>
+          <span class="atag suburb">Willow Grove</span>
+          <span class="atag suburb">Chester</span>
+          <span class="atag suburb">Drexel Hill</span>
+        </div>
+        <div class="area-legend">
+          <span><span class="dot philly"></span> Philadelphia neighborhoods</span>
+          <span><span class="dot suburb"></span> Suburban areas</span>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- HOW IT WORKS -->
+  <section id="how">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-label">The Process</span>
+        <h2>How It Works</h2>
+        <p>Simple, fast, and stress-free — from your first call to the last box.</p>
+      </div>
+      <div class="steps">
+        <div class="step reveal">
+          <div class="step-num">1</div>
+          <h4>Call or Book Online</h4>
+          <p>Call us at <strong style="color:var(--gold);">+1 (445) 444-1515</strong> or book via Calendly — available 24/7, same-day slots open.</p>
+        </div>
+        <div class="step reveal">
+          <div class="step-num">2</div>
+          <h4>Get Your Quote</h4>
+          <p>Clear, upfront pricing — no hidden fees. You know exactly what you pay before we start.</p>
+        </div>
+        <div class="step reveal">
+          <div class="step-num">3</div>
+          <h4>We Show Up and Work</h4>
+          <p>Fully equipped team arrives on time. We handle everything so you don't lift a finger.</p>
+        </div>
+        <div class="step reveal">
+          <div class="step-num">4</div>
+          <h4>Pay and Done</h4>
+          <p>Pay with cash, Venmo, Zelle, or Cash App. Job complete — stress gone.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- BOOKING -->
+  <section id="booking">
+    <div class="container">
+      <div class="booking-grid">
+        <div class="booking-block reveal">
+          <span class="section-label">Schedule Online</span>
+          <h2>Book Your Service</h2>
+          <p>Pick a date and time in our calendar. We confirm fast — or just call us directly at <a href="tel:+14454441515" style="color:var(--brown);font-weight:600;">+1 (445) 444-1515</a>, anytime.</p>
+          <div class="calendly-wrapper">
+            <a href="https://calendly.com/phillytasker" target="_blank" class="btn-primary calendly-btn">
+              <img src="/img/calender.png" alt="Calendar" class="btn-icon" />
+              Open Booking Calendar
+            </a>
+            <p class="calendly-note">Opens our scheduling calendar — or call us anytime, 24/7.</p>
+          </div>
+        </div>
+        <div class="booking-block reveal">
+          <span class="section-label">Easy Payment</span>
+          <h2>Pay Your Way</h2>
+          <p>We accept cash, Venmo, Zelle, and Cash App. Scan the QR code of your preferred app or pay in person.</p>
+          <div class="qr-card">
+            <div class="qr-double">
+              <div class="qr-item">
+                <div class="qr-placeholder">
+                  <img src="/img/qrcode1.png" alt="Venmo QR Code" />
+                </div>
+                <p class="qr-label">Venmo</p>
+              </div>
+              <div class="qr-divider"></div>
+              <div class="qr-item">
+                <div class="qr-placeholder">
+                  <img src="/img/qrcode2.png" alt="Zelle QR Code" />
+                </div>
+                <p class="qr-label">Zelle</p>
+              </div>
+            </div>
+            <p class="qr-caption">Scan with your phone camera<br />or preferred payment app</p>
+            <div class="payment-icons">
+              <span class="pi">Cash</span>
+              <span class="pi">Venmo</span>
+              <span class="pi">Zelle</span>
+              <span class="pi">Cash App</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- TESTIMONIALS -->
+  <section id="testimonials">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-label">5.0 ★ · 1,042+ Reviews</span>
+        <h2>What Philly Says</h2>
+      </div>
+      <div class="testi-grid">
+        <div class="testi-card reveal">
+          <div class="stars">★★★★★</div>
+          <p>"Philly Tasker moved my whole apartment in under 3 hours. Called at 9pm, they were there at 7am. Unreal service — careful with every single item."</p>
+          <div class="testi-author">
+            <div class="avatar">DW</div>
+            <div><strong>Darnell W.</strong><span>North Philadelphia, PA</span></div>
+          </div>
+        </div>
+        <div class="testi-card reveal">
+          <div class="stars">★★★★★</div>
+          <p>"Assembled my entire IKEA bedroom in 2 hours. Brought all their own tools, zero stress. Clean, respectful, and done right the first time."</p>
+          <div class="testi-author">
+            <div class="avatar">JL</div>
+            <div><strong>Jessica L.</strong><span>Fishtown, PA</span></div>
+          </div>
+        </div>
+        <div class="testi-card reveal">
+          <div class="stars">★★★★★</div>
+          <p>"Moved from Philly to DC — smooth ride, nothing damaged, Venmo payment was instant. Already booked them again for my office move."</p>
+          <div class="testi-author">
+            <div class="avatar">TK</div>
+            <div><strong>Tanya K.</strong><span>Washington, DC</span></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact">
+    <div class="container">
+      <div class="contact-grid">
+        <div class="contact-info reveal">
+          <span class="section-label">Get In Touch</span>
+          <h2>Contact Us</h2>
+          <p>Available 24/7 — call, email, or fill out the form. We respond fast.</p>
+          <div class="contact-details">
+            <div class="cd-item">
+              <span class="cd-icon">
+                <img src="/img/phone2.png" alt="Phone" class="cd-icon-img" />
+              </span>
+              <div>
+                <strong>Phone (24/7)</strong>
+                <a href="tel:+14454441515">+1 (445) 444-1515</a>
+              </div>
+            </div>
+            <div class="cd-item">
+              <span class="cd-icon">
+                <img src="/img/mail.png" alt="Email" class="cd-icon-img" />
+              </span>
+              <div>
+                <strong>Email</strong>
+                <a href="mailto:phillytasker@gmail.com">phillytasker@gmail.com</a>
+              </div>
+            </div>
+            <div class="cd-item">
+              <span class="cd-icon">
+                <img src="/img/local.png" alt="Address" class="cd-icon-img" />
+              </span>
+              <div>
+                <strong>Address</strong>
+                <span>601 E Girard Ave, Philadelphia, PA 19125</span>
+              </div>
+            </div>
+            <div class="cd-item">
+              <span class="cd-icon">
+                <img src="/img/time.png" alt="Hours" class="cd-icon-img" />
+              </span>
+              <div>
+                <strong>Hours</strong>
+                <span>Open 24 hours a day, 7 days a week</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="contact-form reveal">
+          <form id="contactForm" novalidate>
+            <div class="form-row">
+              <div class="form-group">
+                <label for="fname">First Name</label>
+                <input type="text" id="fname" placeholder="John" required />
+              </div>
+              <div class="form-group">
+                <label for="lname">Last Name</label>
+                <input type="text" id="lname" placeholder="Doe" required />
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="email">Email Address</label>
+              <input type="email" id="email" placeholder="john@example.com" required />
+            </div>
+            <div class="form-group">
+              <label for="phone">Phone Number</label>
+              <input type="tel" id="phone" placeholder="+1 (215) 000-0000" />
+            </div>
+            <div class="form-group">
+              <label for="service">Service Needed</label>
+              <select id="service">
+                <option value="">Select a service…</option>
+                <option>Truck-Assisted Moving</option>
+                <option>Full Service Moving</option>
+                <option>Help Moving</option>
+                <option>Furniture Assembly</option>
+                <option>Heavy Lifting and Loading</option>
+                <option>TV Mounting</option>
+                <option>Trash and Junk Removal</option>
+                <option>Clean Out Service</option>
+                <option>Errands</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label for="message">Tell Us About Your Job</label>
+              <textarea id="message" rows="4" placeholder="Describe what you need, your address, preferred date…"></textarea>
+            </div>
+            <button type="submit" class="btn-primary btn-full">Send Message</button>
+            <p class="form-success" id="formSuccess">✔ Message sent! We'll be in touch very soon.</p>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer id="footer">
+    <div class="footer-inner">
+      <div class="footer-brand">
+        <a href="#hero" class="logo">
+          <img src="/img/logo.png" alt="Philly Tasker" class="logo-img" />
+          Philly Tasker
+        </a>
+        <p>Moving · Assembly · Cleanouts<br />Junk Removal · TV Mounting · Errands<br />Philadelphia and East Coast — 24/7</p>
+      </div>
+      <div class="footer-links">
+        <h5>Company</h5>
+        <a href="#about">About Us</a>
+        <a href="#services">Services</a>
+        <a href="#area">Service Area</a>
+        <a href="#gallery">Gallery</a>
+        <a href="#testimonials">Reviews</a>
+      </div>
+      <div class="footer-links">
+        <h5>Services</h5>
+        <a href="#services">Moving</a>
+        <a href="#services">Furniture Assembly</a>
+        <a href="#services">Junk Removal</a>
+        <a href="#services">TV Mounting</a>
+        <a href="#services">Clean Outs</a>
+        <a href="#services">Errands</a>
+      </div>
+      <div class="footer-contact">
+        <h5>Reach Us</h5>
+        <a href="tel:+14454441515">+1 (445) 444-1515</a>
+        <a href="mailto:phillytasker@gmail.com">phillytasker@gmail.com</a>
+        <div class="footer-address">
+          <span>601 E Girard Ave</span>
+          <span>Philadelphia, PA 19125</span>
+        </div>
+        <p style="margin-top:4px;">Open 24/7 — Always</p>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; 2026 Philly Tasker LLC. All rights reserved.</p>
+
+      <div class="footer-legal">
+        <a href="/privacy.html">Privacy Policy</a>
+        <a href="/terms.html">Terms of Service</a>
+      </div>
+
+      <p class="footer-legal-note">
+        Licensed and insured service provider in Philadelphia
+      </p>
+    </div>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
